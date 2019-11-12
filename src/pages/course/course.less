@@ -1,0 +1,61 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+}
+.course{
+  position: relative;
+  ul{
+    list-style: none;
+    display: inline-block;
+    li{
+      position: relative;
+      display: inline-block;
+      width: 46vw;
+      height: 20vh;
+      border-radius: 2vw;
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 2px 2px 8px 1px #bbb;
+      margin: 2vw 2vw;
+      float: left;
+      a {
+        img {
+          height: 13vh;
+          width: 46vw;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 3vw;
+        }
+
+        .title {
+          position: absolute;
+          left: 2vw;
+          bottom: 4vh;
+          width: 42vw;
+          height: 2vh;
+          font-size: 14px;
+          font-weight: 500;
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .intro {
+          position: absolute;
+          left: 2vw;
+          bottom: 0vh;
+          font-size: 13px;
+          width: 42vw;
+          height: 4vh;
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
